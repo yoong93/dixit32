@@ -1,0 +1,131 @@
+.wrapper, .board, .statusbar {
+  background-color: #82afc4;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.statusbar {
+  padding-right: 0;
+  border: black;
+  border-width: thin;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.form-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.form-title-text {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.col-xs-4 {
+  border: 2px solid #f1f1ef;
+  border-radius: 10px;
+  margin:10px;
+}
+
+.row {
+  padding:10px;
+}
+
+.form-text {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.form-button {
+  margin-top: 30px;
+}
+
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn.btn-default.active {
+  background-color: #7AB6DD;
+}
+
+.submit {
+  width: 120px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+  background-color: #DD7A7A;
+  font-size:20px;
+  font-weight: bold;
+  font-family: "Helvetica";
+  color:black;
+}
+
+
+.selected-row {
+  background-color: #7AB6DD;
+}
+
+.btn-default {
+  display: inline;
+  float: left;
+}
+
+.enter-username {
+  width: 500px;
+  height: 50px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.username {
+  margin-bottom:30px;
+
+}
+
+.tab-pane {
+  height: 100%;
+  background-color:white;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nav-tabs {
+  background-color: #688fa2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.nav-tabs li a {
+  background-color: #688fa2;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+
+.nav-tabs li a:hover {
+  color: #688fa2;
+}
+
+.tab-content {
+  height:100%;
+  background-color: white; 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
